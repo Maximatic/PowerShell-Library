@@ -21,17 +21,8 @@ VID  VendorName             PID  ProductName
 138a Validity Sensors, Inc. 0001 VFS101 Fingerprint Reader                              
 138a Validity Sensors, Inc. 0005 VFS301 Fingerprint Reader                              
 138a Validity Sensors, Inc. 0007 VFS451 Fingerprint Reader                              
-138a Validity Sensors, Inc. 0008 VFS300 Fingerprint Reader                              
-138a Validity Sensors, Inc. 0010 VFS Fingerprint sensor                                 
-138a Validity Sensors, Inc. 0011 VFS5011 Fingerprint Reader                             
-138a Validity Sensors, Inc. 0015 VFS 5011 fingerprint sensor                            
-138a Validity Sensors, Inc. 0017 VFS 5011 fingerprint sensor                            
-138a Validity Sensors, Inc. 0018 Fingerprint scanner                                    
-138a Validity Sensors, Inc. 003c VFS471 Fingerprint Reader                              
-138a Validity Sensors, Inc. 003d VFS491                                                 
-138a Validity Sensors, Inc. 003f VFS495 Fingerprint Reader                              
-138a Validity Sensors, Inc. 0050 Swipe Fingerprint Sensor                               
-138a Validity Sensors, Inc. 0090 VFS7500 Touch Fingerprint Sensor                       
-138a Validity Sensors, Inc. 0091 VFS7552 Touch Fingerprint Sensor                       
-138a Validity Sensors, Inc. 6e00 WPNT121 802.11g 240Mbps Wireless Adapter [Airgo AGN300]
+...
 </pre>
+
+## Split-vCards.ps1
+This script reads vCard files with multiple contacts and separates them into separate VCF files. Multiple contacts exported from devices such as Android smartphones are typically saved to a single VCF file. Programs like Microsoft Outlook can only import one vCard at at time so the individual vCards must be split up into separate files before importing.
