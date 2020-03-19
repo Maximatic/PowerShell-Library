@@ -1,0 +1,52 @@
+[Configuration upload Information]
+Configuration Format = 3.0
+Minimum Compatible Format = 3.0
+Excluding Format = 0.0
+date = Mon Nov 12 11:21:58 2012
+FOS version = v7.0.1.0
+Number of LS = 1
+[Switch Configuration Begin : 0]
+SwitchName = switch01
+Fabric ID = 128
+
+[Boot Parameters]
+
+[Configuration]
+
+[Bottleneck Configuration]
+
+[FCOE_SW_CONF]
+
+[Zoning]
+cfg.Production:SRV1_SAN1;SRV2_SAN1;SRV3_SAN1;SRV4_SAN1;SRV5_SAN1
+zone.SRV1_SAN1:SAN1_SPA_P0;SAN1_SPB_P0;SRV1_Slot1_P1
+zone.SRV2_SAN1:SAN1_SPA_P0;SAN1_SPB_P0;SRV2_Slot1_P1
+zone.SRV3_SAN1:SAN1_SPA_P0;SAN1_SPB_P0;SRV3_Slot1_P1
+zone.SRV4_SAN1:SAN1_SPA_P0;SAN1_SPB_P0;SRV4_Slot1_P1
+zone.SRV5_SAN1:SAN1_SPA_P0;SAN1_SPB_P0;SRV5_Slot1_P1
+alias.SRV1_Slot1_P1:40:00:11:1b:24:12:df:62
+alias.SRV2_Slot1_P1:40:00:11:1b:24:12:dc:62
+alias.SRV3_Slot1_P1:40:00:11:1b:24:12:64:69
+alias.SRV4_Slot1_P1:40:00:11:1b:24:12:bb:19
+alias.SRV5_Slot1_P1:40:00:11:1b:24:12:51:01
+alias.SAN1_SPA_P0:51:05:21:60:38:b0:3c:e6
+alias.SAN1_SPB_P0:51:05:21:69:38:b0:3c:e6
+defzone:noaccess
+enable:Production
+
+[Defined Security policies]
+
+[Active Security policies]
+
+[iSCSI]
+
+[cryptoDev]
+
+[FICU SAVED FILES]
+
+[VS_SW_CONF]
+
+[Banner]
+
+[End]
+[Switch Configuration End : 0]
