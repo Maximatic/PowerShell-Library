@@ -1,6 +1,3 @@
-## Get-Fibonacci.ps1
-Generates Fibonacci numbers.
-
 ## Out-FileHash.ps1
 Function to simplify the saving the file hashes of a user-specified file, to a text file.
 
