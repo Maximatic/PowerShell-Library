@@ -1,5 +1,8 @@
 # Security-related scripts
 
+## Decode-O365ATPSafeLink.ps1
+PowerShell script to pull out the actual URL from from an encoded Office 365 Advanced Threat Protection Safe Link. You can also decode SafeLinks at http://www.o365atp.com/.
+
 ## Generate-Password.ps1
 Generates a random password and then stores it into the Windows clipboard for easy pasting.
 
